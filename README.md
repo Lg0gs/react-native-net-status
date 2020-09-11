@@ -14,8 +14,9 @@ npm install react-native-net-status
 import NetStatus from "react-native-net-status";
 
 // ...
+// You can set listener to subscribe state change event
 
-const result = await NetStatus.multiply(3, 7);
+NetStatus.addListener('onStateChange', (data) => setNetworkState(data.state));
 ```
 
 ## Contributing
