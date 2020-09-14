@@ -1,11 +1,17 @@
 # react-native-net-status
 
-detecting network status
+Detecting network status, iOS only
 
 ## Installation
 
 ```sh
 npm install react-native-net-status
+```
+
+## linking library
+```sh
+$ cd ios
+$ pod install
 ```
 
 ## Usage

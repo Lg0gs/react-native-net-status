@@ -1,6 +1,6 @@
 {
   "name": "react-native-net-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "detecting network status",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
